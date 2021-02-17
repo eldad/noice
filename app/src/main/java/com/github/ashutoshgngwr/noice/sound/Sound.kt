@@ -72,7 +72,7 @@ class Sound private constructor(
         tags = arrayOf(Tag.FOCUS, Tag.RELAX)
       ),
       "brownian_noise" to Sound(
-        arrayOf("brownian_noise.mp3"),
+        arrayOf("brownian_noise.ogg"),
         R.string.brownian_noise,
         R.string.sound_group__raw_noise,
         arrayOf(
@@ -205,7 +205,7 @@ class Sound private constructor(
         tags = arrayOf(Tag.FOCUS)
       ),
       "pink_noise" to Sound(
-        arrayOf("pink_noise.mp3"),
+        arrayOf("pink_noise.ogg"),
         R.string.pink_noise,
         R.string.sound_group__raw_noise,
         arrayOf()
@@ -329,7 +329,7 @@ class Sound private constructor(
         tags = arrayOf(Tag.FOCUS, Tag.RELAX)
       ),
       "white_noise" to Sound(
-        arrayOf("white_noise.mp3"),
+        arrayOf("white_noise.ogg"),
         R.string.white_noise,
         R.string.sound_group__raw_noise,
         arrayOf()
